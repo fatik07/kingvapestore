@@ -8,7 +8,7 @@
 </p>
 
 ## Version Laravel
-now, this laravel have a version 7
+Now,laravel is using version 7
 
 ## About Laravel
 
