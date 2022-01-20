@@ -20,7 +20,7 @@ Store Category Page
           <h5>All Categories</h5>
         </div>
       </div>
-      <div class="row">
+      <div class="row justify-content-center">
 
         @php
         $incrementCategory = 0

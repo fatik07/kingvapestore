@@ -18,15 +18,15 @@ Store Hompage
               <li data-target="#storeCarousel" data-slide-to="2"></li>
             </ol>
             <!-- buat slide gambar -->
-            <div class="carousel-inner">
+            <div class="carousel-inner" style="max-height: 420px; border-radius:20px">
               <div class="carousel-item active">
-                <img src="/images/banner.jpg" alt="Carousel" class="d-block w-100" />
+                <img src="/images/3.jpg" alt="Carousel" class="d-block w-100" />
               </div>
               <div class="carousel-item">
-                <img src="/images/banner.jpg" alt="Carousel" class="d-block w-100" />
+                <img src="/images/4.jpg" alt="Carousel" class="d-block w-100" />
               </div>
               <div class="carousel-item">
-                <img src="/images/banner.jpg" alt="Carousel" class="d-block w-100" />
+                <img src="/images/2.jpg" alt="Carousel" class="d-block w-100" />
               </div>
             </div>
           </div>
@@ -43,7 +43,7 @@ Store Hompage
           <h5>All Categories</h5>
         </div>
       </div>
-      <div class="row">
+      <div class="row justify-content-center">
 
         {{-- loop agar animasi berjalan satu persatu saat create category --}}
         @php
@@ -75,7 +75,7 @@ Store Hompage
     <div class="container">
       <div class="row">
         <div class="col-lg-12" data-aos="fade-up">
-          <h5>All Product</h5>
+          <h5>What News</h5>
         </div>
       </div>
       <div class="row">

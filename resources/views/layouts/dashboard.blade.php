@@ -27,16 +27,18 @@
           <img src="/images/logo1.svg" class="my-4" alt="">
         </div>
         <div class="list-group list-group-flush">
-          <a href="{{ route('dashboard') }}"
+          {{-- <a href="{{ route('dashboard') }}"
             class="list-group-item list-group-item-action {{ (request()->is('dashboard')) ? 'active' : '' }}">Dashboard</a>
-          <a href="{{ route('dashboard-product') }}"
+          --}}
+          {{-- <a href="{{ route('dashboard-product') }}"
             class="list-group-item list-group-item-action {{ (request()->is('dashboard/product*')) ? 'active' : '' }}">My
-            product</a>
-          <a href="{{ route('dashboard-transaction') }}"
+            product</a> --}}
+          {{-- <a href="{{ route('dashboard-transaction') }}"
             class="list-group-item list-group-item-action {{ (request()->is('dashboard/transaction*')) ? 'active' : '' }}">Transactions</a>
-          <a href="{{ route('dashboard-settings-store') }}"
+          --}}
+          {{-- <a href="{{ route('dashboard-settings-store') }}"
             class="list-group-item list-group-item-action {{ (request()->is('dashboard/settings*')) ? 'active' : '' }}">Store
-            Setting</a>
+            Setting</a> --}}
           <a href="{{ route('dashboard-settings-account') }}"
             class="list-group-item list-group-item-action {{ (request()->is('dashboard/account*')) ? 'active' : '' }}">My
             Account</a>

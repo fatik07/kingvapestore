@@ -155,8 +155,8 @@ Register Store
       },
       data() {
         return {
-            name: "Moch Fatichur Rohman",
-            email: "fatik@gmail.com",
+            name: "",
+            email: "",
             is_store_open: "true",
             store_name: "",
             email_unavailable: false

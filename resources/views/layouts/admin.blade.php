@@ -37,10 +37,10 @@
             Galleries</a>
           <a href="{{ route('category.index') }}"
             class="list-group-item list-group-item-action {{ (request()->is('admin/category*')) ? 'active' : '' }}">Categories</a>
-          <a href="#" class="list-group-item list-group-item-action">Transactions</a>
+          {{-- <a href="#" class="list-group-item list-group-item-action">Transactions</a> --}}
           <a href="{{ route('user.index') }}"
             class="list-group-item list-group-item-action {{ (request()->is('admin/user*')) ? 'active' : '' }}">Users</a>
-          <a href="/index.html" class="list-group-item list-group-item-action">Sign Out</a>
+          <a href="/" class="list-group-item list-group-item-action">Sign Out</a>
         </div>
       </div>
 
@@ -61,7 +61,7 @@
                 <li class="nav-item dropdown">
                   <a href="#" class="nav-link" id="navbarDropdown" role="button" data-toggle="dropdown">
                     <img src="/images/image 13.png" alt="face" class="rounded-circle mr-2 profile-picture">
-                    Hi, Fatik
+                    Hi, Admin
                   </a>
                   <div class="dropdown-menu">
                     <a class="dropdown-item" href="/">Logout</a>
@@ -72,7 +72,7 @@
               <!-- Mobile Menu -->
               <div class="navbar-nav d-blok d-lg-none">
                 <li class="nav-item">
-                  <a href="#" class="nav-link">Hi, Fatik</a>
+                  <a href="#" class="nav-link">Hi, Admin</a>
                 </li>
                 <li class="nav-item d-inline-block">
                   <a href="#" class="nav-link">Cart</a>

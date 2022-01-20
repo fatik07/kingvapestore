@@ -1,11 +1,20 @@
 <?php
 
+/*
+ * This file is part of the IndoRegion package.
+ *
+ * (c) Azis Hapidin <azishapidin.com | azishapidin@gmail.com>
+ *
+ */
+
+namespace Database\Seeders;
+
 use Illuminate\Database\Seeder;
 
 class IndoRegionSeeder extends Seeder
 {
     /**
-     * Run the database seeds.
+     * Seed the application's database.
      *
      * @return void
      */

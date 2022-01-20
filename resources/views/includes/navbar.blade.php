@@ -1,8 +1,11 @@
 <nav class="navbar navbar-expand-lg navbar-light navbar-store fixed-top navbar-fixed-top" data-aos="fade-down">
   <div class="container">
     <a href="{{ route('home') }}" class="navbar-brand">
-      <img src="images/logo.svg" alt="logo" />
+      <img src="{{ asset('images/logokwu.png') }}" style="width:70%" alt="logo" />
     </a>
+    <div class="navbar-brand" style="font-weight: 700; font-size:26px; margin-left:-20px">
+      KingVape
+    </div>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -14,9 +17,9 @@
         <li class="nav-item">
           <a href="{{ route('categories') }}" class="nav-link">Categories</a>
         </li>
-        <li class="nav-item">
+        {{-- <li class="nav-item">
           <a href="/reward.html" class="nav-link">Reward</a>
-        </li>
+        </li> --}}
 
         {{-- jika belum login --}}
         @guest
@@ -40,7 +43,7 @@
             {{ Auth::user()->name }}
           </a>
           <div class="dropdown-menu">
-            <a href="{{ route('dashboard') }}" class="dropdown-item">Dashboard</a>
+            {{-- <a href="{{ route('dashboard') }}" class="dropdown-item">Dashboard</a> --}}
             <a href="{{ route('dashboard-settings-account') }}" class="dropdown-item">Setting</a>
             <div class="dropdown-divider"></div>
             <a href="{{ route('logout') }}" onclick="event.preventDefault();
@@ -71,7 +74,7 @@
       <!-- Mobile Menu -->
       <div class="navbar-nav d-blok d-lg-none">
         <li class="nav-item">
-          <a href="#" class="nav-link">Hi, Fatik</a>
+          <a href="#" class="nav-link">{{ Auth::user()->name }}</a>
         </li>
         <li class="nav-item d-inline-block">
           <a href="{{ route('cart') }}" class="nav-link">Cart</a>
